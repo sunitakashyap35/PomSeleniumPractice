@@ -28,6 +28,7 @@ public class BaseClass {
 
 	if (browserName.equalsIgnoreCase("Chrome"))
 	{		
+		System.out.println("My name is Sunita");
 		 driver = new ChromeDriver();	 
 		 System.out.println(browserName + " " + "browserName Is up and runnig" );	 
 	}	
